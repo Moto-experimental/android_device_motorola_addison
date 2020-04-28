@@ -100,7 +100,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=0 \
     persist.sys.sf.disable_blurs=1 \
     ro.sf.blurs_are_expensive=1 \
-    ro.config.avoid_gfx_accel=true
+    ro.config.avoid_gfx_accel=true \
+    ro.vendor.perf.scroll_opt=true
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
