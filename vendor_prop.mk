@@ -125,6 +125,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true \
+    persist.device_config.runtime_native.usap_pool_size_max=5
+
 # Mods
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.mod.platformsdkversion=281
