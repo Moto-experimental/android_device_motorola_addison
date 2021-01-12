@@ -99,6 +99,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_CONFIG := addison_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 TARGET_KERNEL_RECOVERY_CONFIG := recovery_addison_defconfig
