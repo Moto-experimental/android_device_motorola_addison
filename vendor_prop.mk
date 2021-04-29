@@ -171,7 +171,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.relay_oprt_change=1 \
     persist.vendor.radio.sw_mbn_update=1 \
     ro.vendor.radio.imei.sv=13 \
-    vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     ro.build.vendorprefix=/vendor \
     ro.telephony.iwlan_operation_mode=legacy
 
