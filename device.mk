@@ -103,8 +103,7 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953 \
     libdisplayconfig \
     libtinyxml \
-    libqdMetaData.system \
-    libvulkan
+    libqdMetaData.system
 
 # DRM
 PRODUCT_PACKAGES += \
