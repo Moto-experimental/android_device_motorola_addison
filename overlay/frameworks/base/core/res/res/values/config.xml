@@ -433,4 +433,7 @@
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
 
+    <!-- Whether to clip notification contents with a rounded rectangle. Might be expensive on
+         certain GPU's and thus can be turned off with only minimal visual impact. -->
+    <bool name="config_notifications_round_rect_clipping">false</bool>
 </resources>
