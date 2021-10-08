@@ -1,3 +1,4 @@
+
 # Copyright (C) 2009-2015 Motorola Mobility, Inc.
 # Copyright (C) 2008 The Android Open Source Project
 #
@@ -38,7 +39,7 @@ LOCAL_SRC_FILES := \
 LOCAL_C_INCLUDES += \
     $(LOCAL_PATH)/.. \
     $(LOCAL_PATH)/../motosh_hal \
-    system/core/base/include \
+    system/libbase/include \
     external/libselinux/include \
     
 

@@ -35,7 +35,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_C_INCLUDES += \
     $(LOCAL_PATH)/.. \
-    system/core/base/include \
+    system/libbase/include
 
 LOCAL_C_INCLUDES += external/zlib
 
