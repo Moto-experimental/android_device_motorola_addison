@@ -202,3 +202,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.bpt_adb=2ee6 \
     ro.usb.bpteth=2ee7 \
     ro.usb.bpteth_adb=2ee8
+
+# XML format
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
