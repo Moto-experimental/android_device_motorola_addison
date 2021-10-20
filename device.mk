@@ -396,6 +396,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcutils_shim \
     libjustshoot_shim \
+    libgui_shim \
+    libgui_shim_vendor \
     libmemset_shim \
     libqsapshim
 

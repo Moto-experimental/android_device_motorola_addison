@@ -66,7 +66,7 @@ function blob_fixup() {
 
     vendor/lib/libjustshoot.so)
         for LIBJUST_SHOOT in $(grep -L "libjustshoot_shim.so" "${2}"); do
-            "${PATCHELF}" --add-needed "libjustshoot_shim.so" "$LIBJUST_SHOOT_SHIM" 
+            "${PATCHELF}" --add-needed "libjustshoot_shim.so" "$LIBJUST_SHOOT_SHIM"
         done
         ;;
 
