@@ -174,6 +174,10 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# ConfigStore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
