@@ -192,7 +192,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
     ro.surface_flinger.has_wide_color_display=true \
-    ro.surface_flinger.use_color_management=true
+    ro.surface_flinger.use_color_management=true \
+    debug.renderengine.backend=threaded
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=1500000 \
