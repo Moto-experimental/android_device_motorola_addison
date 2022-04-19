@@ -111,6 +111,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
+# Hardware
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.egl=adreno
+
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
