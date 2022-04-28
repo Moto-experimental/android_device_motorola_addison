@@ -340,6 +340,8 @@ PRODUCT_COPY_FILES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.0.vendor \
+    android.hardware.radio.config@1.1.vendor \
     librmnetctl \
     libsensorndkbridge \
     qti-telephony-hidl-wrapper \
