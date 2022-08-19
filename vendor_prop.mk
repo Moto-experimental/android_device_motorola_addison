@@ -90,6 +90,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     persist.hwc.mdpcomp.enable=true \
     debug.sf.disable_backpressure=1 \
+    debug.sf.disable_client_composition_cache=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.display.disable_skip_validate=1 \
     vendor.display.disable_rotator_downscale=1 \
