@@ -62,15 +62,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.dcvs.extra-buff-count=2 \
     persist.camera.eis.enable=1
 
-# Charger
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.charger.enable_suspend=true
-
 # CNE
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.cnd.iwlan=1 \
-    persist.vendor.cne.logging.qxdm=3974
-
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.cne.feature=1
 
@@ -148,7 +140,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.qc.hardware=true \
     persist.timed.enable=true
 
-# RIL
+# Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ims.dropset_feature=0 \
     persist.vendor.ims.disableADBLogs=0 \
@@ -209,17 +201,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=Qualcomm \
     ro.soc.model=MSM8937
-
-# USB
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.usb.mtp=2e82 \
-    ro.usb.mtp_adb=2e76 \
-    ro.usb.ptp=2e83 \
-    ro.usb.ptp_adb=2e84 \
-    ro.usb.bpt=2ee5 \
-    ro.usb.bpt_adb=2ee6 \
-    ro.usb.bpteth=2ee7 \
-    ro.usb.bpteth_adb=2ee8
 
 # XML format
 PRODUCT_PROPERTY_OVERRIDES += \
