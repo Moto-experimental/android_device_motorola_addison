@@ -107,7 +107,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.launcher.blur.appLaunch=0 \
     ro.config.avoid_gfx_accel=true \
     ro.vendor.perf.scroll_opt=true \
-    debug.cpurend.vsync=false
+    debug.cpurend.vsync=false \
+    debug.hwui.use_buffer_age=false
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
