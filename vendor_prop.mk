@@ -107,7 +107,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.qualcomm.cabl=0 \
     persist.sys.sf.disable_blurs=1 \
-    ro.sf.blurs_are_expensive=1
+    ro.sf.blurs_are_expensive=1 \
+    ro.config.avoid_gfx_accel=true
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
