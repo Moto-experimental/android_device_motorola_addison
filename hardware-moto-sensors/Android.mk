@@ -291,18 +291,6 @@ ifeq ($(BOARD_USES_MOT_SENSOR_HUB), true)
         motosh_bin/CRC32.c
     LOCAL_REQUIRED_MODULES += sensorhub-blacklist.txt
 
-    ifeq ($(MOT_SENSOR_HUB_HW_TYPE_L4), true)
-        ifneq ($(TARGET_BUILD_VARIANT),user)
-            # Build libiio.so
-            LOCAL_REQUIRED_MODULES += libiio
-
-            # Build libiio tests/utilities
-            LOCAL_REQUIRED_MODULES += iio_genxml iio_info iio_readdev iio_reg
-            # Build the kernel provided IIO Utilities
-            #LOCAL_REQUIRED_MODULES += generic_buffer lsiio iio_event_monitor
-        endif
-    endif
-
     LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/libsensorhub
 
