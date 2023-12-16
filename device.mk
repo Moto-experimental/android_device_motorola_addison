@@ -30,11 +30,13 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
     android.hardware.audio.service \
     android.hardware.audio.effect@5.0-impl \
+    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
     libaacwrapper \
     libaudio-resampler \
     libqcomvisualizer \
+    libqcompostprocbundle \
     libqcomvoiceprocessing \
     libvolumelistener \
     tinymix
