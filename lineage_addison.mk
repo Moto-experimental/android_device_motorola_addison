@@ -16,17 +16,14 @@
 
 
 # Inherit from device product
-$(call inherit-product, device/motorola/addison/full_addison.mk)
+$(call inherit-product, device/motorola/addison/device.mk)
 
 # Inherit from core products - Most specific first
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Boot Animation
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_BOOTANIMATION_HALF_RES := true
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Device identifier - This must come after all inclusions
 PRODUCT_DEVICE := addison
