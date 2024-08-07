@@ -398,10 +398,6 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-addison.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
