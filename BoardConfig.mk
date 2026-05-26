@@ -44,8 +44,8 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Kernel
 BOARD_KERNEL_SEPARATED_DT := true
-TARGET_KERNEL_CONFIG := addison_defconfig
-TARGET_KERNEL_RECOVERY_CONFIG := recovery_addison_defconfig
+TARGET_KERNEL_CONFIG += vendor/moto/addison.config
+TARGET_KERNEL_RECOVERY_CONFIG += vendor/moto/addison.config
 
 # SELinux
 #BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-mods/vendor
